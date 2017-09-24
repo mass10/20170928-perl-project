@@ -19,7 +19,7 @@ sub _main {
 	_println('### start ###');
 	my $status = _generate();
 	_println('[', $status, ']');
-	if (93 < $status) {
+	if (50 < $status) {
 		die('bullshit');
 	}
 	_println('--- end ---');
